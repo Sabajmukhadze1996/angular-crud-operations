@@ -1,0 +1,44 @@
+{
+  "restaurants": [
+    {
+      "id": 2,
+      "name": "Food Plaza Restaurant",
+      "owner": "Ashu",
+      "mobile": "+34545939293",
+      "email": "food@gmail.com",
+      "location": "Noida"
+    },
+    {
+      "id": 3,
+      "name": "Steak Restaurant",
+      "owner": "",
+      "mobile": "",
+      "email": "",
+      "location": ""
+    },
+    {
+      "id": 4,
+      "name": "Neasdasdasdw Food Restaurant",
+      "owner": "Mr. VIsh",
+      "mobile": "+19237298378923",
+      "email": "newfood@restauran.com",
+      "location": "Delhi"
+    },
+    {
+      "id": 5,
+      "name": "asdas",
+      "owner": "asd",
+      "mobile": "asdasd",
+      "email": "asdas",
+      "location": "asd"
+    },
+    {
+      "id": 6,
+      "name": "saba",
+      "owner": "bsad",
+      "mobile": "sad",
+      "email": "asd",
+      "location": "asdasd"
+    }
+  ]
+}

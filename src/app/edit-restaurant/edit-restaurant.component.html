@@ -1,0 +1,62 @@
+<div>
+    <h2 class="text-center mt-5 text-secondary">
+      Update Old Restaurant Details Here !
+    </h2>
+    <div class="container mt-5 text-center">
+      <mat-form-field appearance="outline" style="max-width: 500px; width: 100%">
+        <mat-label>Restaurant Name</mat-label>
+        <input
+          matInput
+          placeholder="xyz Food Restaurant..."
+          [(ngModel)]="restaurantRecords.name"
+          [ngClass]="{ 'invalid-input': !restaurantRecords.name }"
+        />
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="outline" style="max-width: 500px; width: 100%">
+        <mat-label>Restaurant Owner</mat-label>
+        <input
+          matInput
+          placeholder="Mr. John..."
+          [(ngModel)]="restaurantRecords.owner"
+        />
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="outline" style="max-width: 500px; width: 100%">
+        <mat-label>Restaurant Mobile</mat-label>
+        <input
+          matInput
+          placeholder="+91224323423..."
+          [(ngModel)]="restaurantRecords.mobile"
+        />
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="outline" style="max-width: 500px; width: 100%">
+        <mat-label>Restaurant Email</mat-label>
+        <input
+          matInput
+          placeholder="abc@restaurant.com..."
+          [(ngModel)]="restaurantRecords.email"
+        />
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="outline" style="max-width: 500px; width: 100%">
+        <mat-label>Restaurant Location</mat-label>
+        <input
+          matInput
+          placeholder="Pratapgahr U.P..."
+          [(ngModel)]="restaurantRecords.location"
+        />
+      </mat-form-field>
+      <br />
+      <button
+        style="padding-block: 1.5rem; max-width: 500px; width: 100%"
+        mat-raised-button
+        color="primary"
+        (click)="updateRecord()"
+      >
+        Update Records
+      </button>
+    </div>
+  </div>
+  
